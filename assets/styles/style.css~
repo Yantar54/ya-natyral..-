@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    background-image: url("../images/lenin.webp");
+    background-repeat: no-repeat;
+    background-size: unset;
+    
+}
+
+.list{
+    color: white;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-family: monospace;
+}
+
+

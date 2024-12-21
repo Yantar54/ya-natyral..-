@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+}
+
+.wrapper{
+    background-image: url("https://www.google.com/imgres?q=kremlin%20tower&imgurl=https%3A%2F%2Fi.natgeofe.com%2Fn%2F82720f1c-ab9e-4115-b7ea-9d2a4375b2c4%2F00000163-4640-d3e2-a1ff-564483af0000_3x2.jpg&imgrefurl=https%3A%2F%2Fwww.nationalgeographic.com%2Ftravel%2Fworld-heritage%2Farticle%2Fkremlin-red-square&docid=XesCUFq31jbSOM&tbnid=UJISYfcLy51_ZM&vet=12ahUKEwjcxr6tq_KJAxUGDRAIHYgCGngQM3oECBYQAA..i&w=3072&h=2048&hcb=2&ved=2ahUKEwjcxr6tq_KJAxUGDRAIHYgCGngQM3oECBYQAA");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 70dvh;
+    display: block;
+}
+
+
+.road{
+    background-image: url();
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 30dvh;
+    
+    float: inline-end;
+    background-color: black;
+    
+
+}
+
+
+
+.car{
+    position: absolute;
+    height: 250px;
+    width: 250px;
+
+    &.active {
+	animation: drive 1s;
+	
+    }
+    
+    position: absolute;
+    background-color: red;
+
+    background-image: url(https://www.google.com/imgres?q=gaz%202110&imgurl=https%3A%2F%2Fdriff.ru%2Fimg%2Fcat%2Fgaz%2F1200x872-5779_1.jpg&imgrefurl=https%3A%2F%2Fdriff.ru%2Fcatalog%2Fgaz-3110-volga-vs-vaz-2110%2F&docid=kfQjlMb_-E-N0M&tbnid=RcAF7RLGidDaOM&vet=12ahUKEwj_zPzQr_KJAxWwFBAIHUBEEuAQM3oFCIEBEAA..i&w=1200&h=872&hcb=2&ved=2ahUKEwj_zPzQr_KJAxWwFBAIHUBEEuAQM3oFCIEBEAA);
+}
+
+@keyframes drive {
+    0%{
+	left: 0;
+
+    }
+    100%{
+	left: 1100px;
+    }
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
